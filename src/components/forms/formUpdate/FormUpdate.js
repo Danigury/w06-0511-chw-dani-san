@@ -1,4 +1,4 @@
-const FormCreate = () => {
+const FormUpdate = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
   };
@@ -8,7 +8,7 @@ const FormCreate = () => {
       <h1>Create new Robot</h1>
       <div className="mb-2 col-sm-10">
         <label htmlFor="name" className="form-label">
-          Robot Name
+          New Robot Name
         </label>
         <input
           type="text"
@@ -35,7 +35,7 @@ const FormCreate = () => {
         />
       </div>
       <div className="form-group mb-2 col-sm-10">
-        <label htmlFor="speed">Speed</label>
+        <label htmlFor="speed">New speed</label>
         <select className="form-control" id="speed">
           <option>0</option>
           <option>1</option>
@@ -51,7 +51,7 @@ const FormCreate = () => {
         </select>
       </div>
       <div className="form-group mb-2 col-sm-10">
-        <label htmlFor="stamina">Stamina</label>
+        <label htmlFor="stamina">New stamina</label>
         <select className="form-control" id="stamina">
           <option>0</option>
           <option>1</option>
@@ -68,7 +68,7 @@ const FormCreate = () => {
       </div>
       <div className="mb-2 col-sm-10">
         <label htmlFor="creationDate" className="form-label">
-          Creation date
+          Change the creation date
         </label>
         <input
           type="date"
@@ -82,10 +82,10 @@ const FormCreate = () => {
       </div>
 
       <button type="button" className="btn btn-primary">
-        Create Robot
+        Update Robot
       </button>
     </form>
   );
 };
 
-export default FormCreate;
+export default FormUpdate;
