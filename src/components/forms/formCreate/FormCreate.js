@@ -36,9 +36,26 @@ const FormCreate = () => {
           required
         />
       </div>
-      <div class="form-group">
-        <label for="exampleFormControlSelect1">Example select</label>
-        <select class="form-control" id="exampleFormControlSelect1">
+      <div className="form-group mb-2 col-sm-10">
+        <label htmlFor="speed">Speed</label>
+        <select className="form-control" id="speed">
+          <option>0</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+        </select>
+      </div>
+      <div className="form-group mb-2 col-sm-10">
+        <label htmlFor="stamina">Stamina</label>
+        <select className="form-control" id="stamina">
+          <option>0</option>
           <option>1</option>
           <option>2</option>
           <option>3</option>
@@ -52,35 +69,23 @@ const FormCreate = () => {
         </select>
       </div>
       <div className="mb-2 col-sm-10">
-        <label htmlFor="birthday" className="form-label">
-          Birthday
+        <label htmlFor="creationDate" className="form-label">
+          Creation date
         </label>
         <input
           type="date"
-          id="birthday"
+          id="creationDate"
           className="form-control"
-          placeholder="Enter your birthday"
+          placeholder="Date of creation..."
           autoComplete="off"
           onChange={() => {}}
           required
         />
       </div>
-      <div className="mb-2 col-sm-10">
-        <label htmlFor="email" className="form-label">
-          Email
-        </label>
-        <input
-          type="email"
-          value=""
-          className="form-control"
-          id="email"
-          placeholder="Enter your email"
-          autoComplete="off"
-          onChange={() => {}}
-          required
-        />
-      </div>
-      <button>Create</button>
+
+      <button type="button" className="btn btn-primary">
+        Create Robot
+      </button>
     </form>
   );
 };
