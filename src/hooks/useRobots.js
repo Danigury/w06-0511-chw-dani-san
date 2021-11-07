@@ -1,6 +1,5 @@
 import { useCallback } from "react";
-import { useDispatch } from "react-redux";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import loadRobotsThunk from "../redux/thunk/robotsThunk";
 
 const useRobots = () => {
