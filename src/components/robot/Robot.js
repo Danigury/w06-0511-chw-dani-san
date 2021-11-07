@@ -1,17 +1,17 @@
-const Robot = ({ url, name, speed, stamina, creationDate }) => {
+const Robot = ({ src, name, speed, stamina, creationDate }) => {
   return (
     <div className="col">
       <div className="card shadow-sm">
         <img
           className="bd-placeholder-img card-img-top"
-          src={url}
+          src={src}
           width="100%"
           height="225"
           alt="Robot"
           aria-label="Placeholder: Thumbnail"
           preserveAspectRatio="xMidYMid slice"
           focusable="false"
-        ></img>
+        />
         <h2 className="robot_name">{name}</h2>
         <div className="card-body">
           <p className="card-text">Features: </p>

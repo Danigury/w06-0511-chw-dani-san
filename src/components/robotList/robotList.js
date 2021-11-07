@@ -13,6 +13,7 @@ const RobotList = () => {
               <li key={robot._id}>
                 <Robot
                   name={robot.name}
+                  src={robot.url}
                   speed={robot.features.speed}
                   stamina={robot.features.stamina}
                   creationDate={robot.features.creationDate}
