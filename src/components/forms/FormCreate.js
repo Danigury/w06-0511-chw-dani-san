@@ -36,9 +36,9 @@ const FormCreate = () => {
           required
         />
       </div>
-      <div class="form-group">
-        <label for="exampleFormControlSelect1">Example select</label>
-        <select class="form-control" id="exampleFormControlSelect1">
+      <div className="form-group mb-2 col-sm-10">
+        <label htmlFor="exampleFormControlSelect1">Example select</label>
+        <select className="form-control" id="exampleFormControlSelect1">
           <option>1</option>
           <option>2</option>
           <option>3</option>
