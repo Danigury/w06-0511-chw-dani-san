@@ -6,23 +6,9 @@
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "axios": "^0.24.0",
-    "babel-preset-react": "^6.24.1",
-    "bootstrap": "^5.1.3",
-    "chalk": "^2.4.2",
-    "commander": "^4.1.1",
-    "debug": "^4.3.2",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "morgan": "^1.10.0",
-    "prompt": "^1.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-redux": "^7.2.6",
     "react-scripts": "4.0.3",
-    "redux": "^4.1.2",
-    "redux-devtools-extension": "^2.13.9",
-    "redux-thunk": "^2.4.0",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -48,26 +34,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "devDependencies": {
-    "@types/jest": "^27.0.2",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.25.2",
-    "nodemon": "^2.0.14"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Danigury/w06-0511-chw-dani-san.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Danigury/w06-0511-chw-dani-san/issues"
-  },
-  "homepage": "https://github.com/Danigury/w06-0511-chw-dani-san#readme"
+  }
 }
