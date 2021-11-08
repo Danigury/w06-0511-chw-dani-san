@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useDispatch } from "react-redux";
+// import { useDispatch } from "react-redux";
 
 const FormUser = () => {
   const user = {
@@ -8,20 +8,15 @@ const FormUser = () => {
   };
 
   const [userData, setUserData] = useState(user);
+
   const onChange = (event) => {
     setUserData({ ...userData, [event.target.id]: event.target.value });
   };
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-  };
   const onSubmit = (event) => {
     event.preventDefault();
   };
 
-  const changeUserData = (event) => {
-    setUserData({ ...userData, [event.target.id]: event.target.value });
-  };
   return (
     <form noValidate autoComplete="off" onSubmit={onSubmit}>
       <div className="form-row">
